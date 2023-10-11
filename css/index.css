@@ -278,7 +278,7 @@ margin-top: 30%;
     height: 80vh;
     margin: auto;
     width: 50%;
-    min-width: 400px;
+    /* min-width: 400px; */
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 3.5%;
@@ -328,6 +328,14 @@ margin-top: 30%;
         padding: 0.5% 2% 0.5% 1%;
         border-radius: 0 50px 50px 0;
     }
+    #longText{
+        height: 50vh;
+        padding-top: 1%;
+        display: flex;
+        justify-content: center;
+    
+    
+    }
     
 }
     
@@ -343,6 +351,7 @@ margin-top: 30%;
         width: 100%;
         margin-bottom: 5%;
     }
+  
     #profilePic{
         width: 200px;
         height: 200px;
@@ -368,11 +377,11 @@ padding-bottom: 15%;
     }
     .myWork{
         margin-top: 18%;
+        height: 55vh;
     }
     .welcome{
         margin-bottom: 10%;
     }
    
     
-}
 }
